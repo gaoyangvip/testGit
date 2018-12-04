@@ -26,9 +26,8 @@ public class Client {
         System.out.println(accountDao);
         accountDao.findAll();*/
 
-
-//        IAccountService accountService =(IAccountService) BeanFactory.getBean("accountService");
-//        System.out.println(accountService);
+       IAccountService accountService =(IAccountService) BeanFactory.getBean("accountService");
+       System.out.println(accountService);
 
         IAccountDao accountDao = (IAccountDao)BeanFactory.getBean("accountDao");
         accountDao.findAll();
