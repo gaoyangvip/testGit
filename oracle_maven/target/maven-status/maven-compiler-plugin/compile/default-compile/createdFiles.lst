@@ -1,5 +1,0 @@
-com\itheima\controller\ItemsController.class
-com\itheima\service\impl\ItemsServiceImpl.class
-com\itheima\service\IItemsService.class
-com\itheima\dao\IItemsDao.class
-com\itheima\domain\Items.class
